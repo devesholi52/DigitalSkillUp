@@ -1,0 +1,239 @@
+.TheMain {
+    width: 100%;
+    /* background-color: red; */
+    padding: 50px 0px;
+    padding-bottom: 80px;
+    height: 100vh;
+    /* background-color: lightgray; */
+    overflow: hidden;
+    background-size: cover;
+    margin: 50px 0px;
+    margin-bottom: 90px;
+    /* background: linear-gradient(to right, #f7aae63f, #fdee8e8f); */
+}
+
+.TopContainer {
+    margin: auto;
+    width: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* max-width: 800px; */
+    flex-wrap: wrap;
+}
+
+.TopContainerLeftText {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    /* align-items: center; */
+    text-align: left;
+    /* margin-right: 30px; */
+}
+
+.TopContainerLeftTextWithCard {
+    display: flex;
+    align-items: center;
+    /* gap: 60px; */
+    /* justify-content: center; */
+}
+
+.ExploreText {
+    text-align: left;
+}
+
+.Card {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    text-decoration: none;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 15px;
+    gap: 10px;
+    cursor: pointer
+}
+
+.Card:hover {
+    transform: translateY(-10px);
+    overflow: hidden;
+    transition: 0.2s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    cursor: pointer
+}
+
+.ParaText {
+    font-size: 18px;
+    line-height: 22px;
+    overflow: hidden;
+    width: 70%;
+    padding-bottom: 5px;
+
+}
+
+.CardSingle {
+    height: 250px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: ; */
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-right: 10px;
+    gap: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.CardSingle:hover {
+    transform: translateY(-10px);
+    overflow: hidden;
+    transition: 0.2s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    cursor: pointer
+}
+
+.CategoryName {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer
+}
+
+.SeeProgramDiv {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    color: black;
+    cursor: pointer
+}
+
+.TopContainerRight {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* gap: 10px; */
+    /* width: 100%; */
+}
+
+.ImageCard {
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+    cursor: pointer
+}
+
+.Img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer
+}
+
+@media screen and (max-width:1000px) {
+    .TopContainerLeftTextWithCard {
+        flex-wrap: wrap;
+    }
+
+    .TopContainerRight {
+        flex-wrap: wrap;
+    }
+
+    .TheMain {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:772px) {
+    .Card {
+        height: 150px;
+        width: 200px;
+        margin: 10px;
+    }
+
+    .CardSingle {
+        height: 150px;
+        width: 200px;
+    }
+
+    .ImageCard {
+        height: 50px;
+        width: 50px;
+    }
+
+    .CategoryName {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .Card {
+        height: 170px;
+        width: 170px;
+        margin: 4px;
+    }
+
+    .CardSingle {
+        height: 170px;
+        width: 170px;
+        margin: 4px;
+        margin-top: 40px;
+    }
+
+    .ImageCard {
+        height: 50px;
+        width: 50px;
+    }
+
+    .CategoryName {
+        font-size: 14px;
+    }
+
+    .SeeProgramText {
+        font-size: 12px;
+    }
+
+    .Icon {
+        font-size: 12px;
+    }
+
+    .TopContainer {
+        width: 90%;
+    }
+
+    .ExploreText {
+        font-size: 18px;
+        margin-bottom: -10px;
+    }
+
+    .ParaText {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Card {
+        height: 155px;
+        width: 155px;
+        margin: 4px;
+    }
+
+    .CardSingle {
+        height: 155px;
+        width: 155px;
+        margin: 4px;
+        margin-top: 40px;
+    }
+}

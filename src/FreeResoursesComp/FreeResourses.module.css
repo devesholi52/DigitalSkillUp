@@ -1,0 +1,118 @@
+.TheMain {
+    margin: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.divTextConatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Para {
+    font-size: 18px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    line-height: 30px;
+}
+
+.Heading {
+    font-size: 2rem;
+    color: #312951;
+}
+
+.FourNameDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+    gap: 40px;
+
+}
+
+.ThreeNameDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 40px;
+    padding: 20px;
+
+}
+
+.Name {
+    border: 1px solid black;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.2s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.ExploreNow {
+    background-color: #fc0067;
+    padding: 13px 40px;
+    font-size: 18px;
+    border-radius: 13px;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ExploreNow:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    transition: 0.1s;
+}
+
+@media screen and (max-width:800px) {
+    .Name {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+
+    .FourNameDiv {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ThreeNameDiv {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: -10px;
+    }
+
+    .Para {
+        font-size: 16px;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        line-height: 25px;
+        margin-top: -10px;
+    }
+
+    .Heading {
+        font-size: 1.5rem;
+        color: #312951;
+        text-align: center;
+    }
+
+    .ExploreNow {
+        background-color: #fc0067;
+        padding: 10px 30px;
+        font-size: 16px;
+        border-radius: 13px;
+        margin-top: 20px;
+        color: white;
+    }
+}

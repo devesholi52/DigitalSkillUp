@@ -1,0 +1,374 @@
+.MainContainer {
+    /* background-color: #57cb9d58; */
+    /* background-color: #bee32c93; */
+    background-color: #ff8f2015;
+    /* background-color: rgb(168, 224, 247); */
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.InnerContainerContactUs {
+    position: relative;
+    z-index: 1;
+    left: 50px;
+    /* background-color: #29347b; */
+    background-color: #ff9020;
+    width: 320px;
+    height: auto;
+
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+}
+
+.innerTextContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.ContactUSText {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    /* font-family: poppins; */
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.AdPhEmText {
+    font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.AddressIconTextContainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.FullAddressText {
+    font-size: 16px;
+    /* font-family: poppins; */
+    font-weight: 300;
+    color: #fff;
+    padding-top: 5px;
+}
+
+.InnerContainerWriteUs {
+    position: relative;
+    z-index: 0;
+    padding-left: 20px;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    display: flex;
+    padding: 30px 80px 40px 80px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.WriteUsText {
+    color: #000;
+    font-size: 1.4rem;
+    /* font-family: poppins; */
+    font-weight: 400;
+}
+
+.InputBoxContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.iconinputContainerWriteUsContainer {
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    padding: 7px 0px 7px 10px;
+}
+
+.inputBox {
+    padding: 5px 0px 5px 10px;
+    border-color: #fff;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.inputBoxMessage {
+    padding: 5px 0px 5px 10px;
+    border-color: #fff;
+    /* background-color: red; */
+    width: 100%;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+
+.SendMessageConatiner {
+    background-color: #ff9020;
+    align-self: flex-end;
+    padding: 7px 20px 7px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.SendMessageText {
+    color: white;
+    /* font-family: poppins; */
+    font-weight: 400px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.WorkwithusConatiner {
+    display: flex;
+    height: 35vh;
+    width: 100%;
+    margin-top: 110px;
+    margin-bottom: 70px;
+    background-color: #feecec;
+}
+
+.MainWorkwithusConatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 76%;
+}
+
+.JoinOurTeamContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ButtonWorkUs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    background-color: #fc0067;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.JoinUsText {
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+}
+
+.ReadyToWorkText {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.OpenPositionText {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ArrowUnderJoinusText {
+    font-size: 26px;
+    margin-top: 4px;
+}
+
+@media screen and (max-width:935px) {
+    .MainContainer {
+        height: 900px;
+    }
+
+    .JoinUsText {
+        font-size: 18px;
+        font-weight: 700;
+        color: gray;
+    }
+
+    .ReadyToWorkText {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .OpenPositionText {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .ArrowUnderJoinusText {
+        font-size: 23px;
+        margin-top: 4px;
+    }
+
+    .ButtonWorkUs {
+        gap: 5px;
+        background-color: #fc0067;
+        padding: 13px;
+    }
+
+    .MainWorkwithusConatiner {
+        margin: auto;
+        width: 90%;
+    }
+
+    .InnerContainerContactUs {
+        left: 30px;
+        width: 280px;
+        /* height: 350px; */
+        top: -30px;
+    }
+
+    .InnerContainerWriteUs {
+        margin-bottom: 60px;
+        width: 400px;
+        gap: 20px;
+        height: 500px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:695px) {
+    .MainContainer {
+        height: 900px;
+        margin-top: 30px;
+    }
+
+    .InnerContainerContactUs {
+        left: 8px;
+        width: 350px;
+        /* height: 300px; */
+        overflow: hidden;
+        top: 35px;
+    }
+
+    .JoinUsText {
+        font-size: 18px;
+        font-weight: 700;
+        color: gray;
+    }
+
+    .ReadyToWorkText {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .OpenPositionText {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .ArrowUnderJoinusText {
+        font-size: 20px;
+        margin-top: 4px;
+    }
+
+    .ButtonWorkUs {
+        gap: 5px;
+        background-color: #fc0067;
+        padding: 10px;
+    }
+
+    .InnerContainerWriteUs {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .MainContainer {
+        height: 900px;
+        margin-top: 0px;
+    }
+
+    .InnerContainerContactUs {
+        left: 8px;
+        width: 280px;
+        height: auto;
+        overflow: hidden;
+        top: 80px;
+    }
+
+    .InnerContainerWriteUs {
+        margin-bottom: 60px;
+        width: 350px;
+        gap: 20px;
+        height: 450px;
+        padding: 70px 20px 40px 20px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    .InputBoxContainer {
+        gap: 10px
+    }
+
+    .inputBox {
+        padding: 2px 0px 2px 5px;
+        border-color: #fff;
+        width: 100%;
+    }
+
+    .FullAddressText {
+        font-size: 14px;
+        padding-top: 2px;
+    }
+
+    .AdPhEmText {
+        font-size: 16px;
+    }
+
+    .JoinUsText {
+        font-size: 16px;
+        font-weight: 600;
+        color: gray;
+    }
+
+    .ReadyToWorkText {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .OpenPositionText {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .ArrowUnderJoinusText {
+        font-size: 18px;
+        margin-top: 4px;
+    }
+
+    .ButtonWorkUs {
+        gap: 5px;
+        background-color: #fc0067;
+        padding: 7px;
+        margin-left: 50px;
+    }
+
+    .InputBoxContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 300px;
+        /* background-color: red; */
+
+    }
+
+    .WriteUsText {
+        display: none;
+    }
+}

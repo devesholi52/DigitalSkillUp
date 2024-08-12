@@ -1,0 +1,316 @@
+.TheMain {
+    /* background-color: rgba(255, 192, 203, 0.636); */
+    height: 450px;
+    overflow: visible;
+    margin-bottom: 160px;
+    margin-top: 130px;
+    background-size: cover;
+}
+
+.TheMainBackground {
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: visible;
+    height: auto;
+    height: 450px;
+}
+
+.TopHeadingBox {
+    /* margin: auto; */
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.TopHeading {
+    font-size: 2rem;
+    color: #312951;
+}
+
+.TopHeadingPara {
+    font-size: 18px;
+}
+
+.Container {
+    margin: auto;
+    width: 85%;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px
+}
+
+.IconDiConatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MainCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    width: 300px;
+    height: 300px;
+    transform: translateY(-160px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid lightgray;
+    padding-bottom: 40px;
+    background-color: white;
+    /* background-color: pink; */
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+.MainCard2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    overflow: visible;
+    border: 1px solid lightgray;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: 40px;
+    background-color: white;
+    /* background-color: pink; */
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 20px;
+
+}
+
+.MainCard3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: visible;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    transform: translateY(-160px);
+    border: 1px solid lightgray;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+
+.ImageCard {
+    height: 150px;
+    width: 200px;
+    border-radius: 30px;
+    overflow: hidden;
+    /* border-top-right-radius: 10px;
+    border-top-left-radius: 10px; */
+}
+
+.LocationDiv {
+    height: 180px;
+    width: 180px;
+    overflow: hidden;
+}
+
+.Img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.LocationImg {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+
+}
+
+.Line11 {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    position: relative;
+    right: 50px;
+}
+
+.LocationMain {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Location {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1200px) {
+    .MainCard {
+        width: 220px;
+        height: 250px;
+        transform: translateY(-160px);
+    }
+
+    .MainCard2 {
+        width: 220px;
+        height: 250px;
+
+    }
+
+    .MainCard3 {
+        width: 220px;
+        height: 250px;
+        transform: translateY(-160px);
+    }
+
+
+    .ImageCard {
+        height: 120px;
+        width: 160px;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+
+    .LocationDiv {
+        height: 150px;
+        width: 150px;
+        overflow: hidden;
+    }
+
+    .LocationMain {
+        font-size: 18px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+
+    .Location {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .MainCard {
+        width: 220px;
+        height: 250px;
+        transform: translateY(0px);
+    }
+
+    .MainCard2 {
+        width: 220px;
+        height: 250px;
+
+    }
+
+    .MainCard3 {
+        width: 220px;
+        height: 250px;
+        transform: translateY(0px);
+    }
+
+
+    .ImageCard {
+        height: 120px;
+        width: 160px;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+
+    .LocationDiv {
+        height: 150px;
+        width: 150px;
+        overflow: hidden;
+    }
+
+    .LocationMain {
+        font-size: 18px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+
+    .Location {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .Container {
+        gap: 40px;
+        width: 90%;
+    }
+
+
+}
+
+@media screen and (max-width:750px) {
+    .Container {
+        flex-wrap: wrap;
+        padding: 40px 0px;
+    }
+
+    .LocationDiv {
+        display: none;
+    }
+
+    .TheMain {
+        height: auto;
+        margin-bottom: 100px;
+        margin-top: 70px;
+    }
+
+    .TheMainBackground {
+        height: auto;
+    }
+
+    .MainCard {
+        width: 80%;
+    }
+
+    .IconDiConatiner {
+        width: 100%;
+    }
+
+    .MainCard2 {
+        width: 80%;
+
+    }
+
+    .MainCard3 {
+        width: 80%;
+    }
+
+    .ImageCard {
+        height: 120px;
+        width: 100%;
+        padding: 0px 20px;
+        border-radius: 0px;
+        overflow: hidden;
+    }
+
+    .TopHeading {
+        font-size: 1.3rem;
+        color: #312951;
+    }
+
+    .TopHeadingPara {
+        font-size: 16px;
+        width: 80%;
+        text-align: center;
+    }
+
+
+}

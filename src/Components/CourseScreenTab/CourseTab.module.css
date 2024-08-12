@@ -1,0 +1,944 @@
+.ContainerLargeScreenSize {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    /* position: relative; */
+    max-height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+.ContainerMiddleScreenSize {
+    display: none;
+}
+
+.TextContainer {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 1400px; */
+    /* padding-top: 70px; */
+    text-align: left;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 90vh; */
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.UpperText {
+    font-size: 56px;
+    font-weight: bolder;
+    cursor: default
+}
+
+.paraText {
+    font-size: 22px;
+    margin: 15px 0;
+    max-width: 550px;
+    cursor: default;
+    /* text-align: left; */
+    /* background-color: #fc0067; */
+}
+
+.CourseViewContainer {
+    position: relative;
+    z-index: 1;
+    bottom: 60px;
+    margin: auto;
+    width: 80%;
+    /* margin-bottom:70px ; */
+}
+
+.InnerContainer {
+    display: flex;
+    height: auto;
+    border-radius: 10px;
+    flex-direction: column;
+    padding-bottom: 20px;
+    /* background-color: red; */
+    margin: 20px 20px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transform: none;
+    transition: 0.4s;
+}
+
+.InnerContainerHeight {
+    display: flex;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    flex-direction: column;
+    /* background-color: red; */
+    margin: 20px 20px;
+    overflow: hidden;
+    background-color: #fff;
+    transform: none;
+}
+
+.ContainerImageNiche {
+    height: 500px;
+    width: 80%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.imageContainer {
+    margin: 20px;
+}
+
+.TopText {
+    font-size: 20px;
+    color: #312951;
+    font-weight: 500;
+    padding: 0px 10px;
+    overflow: hidden;
+    cursor: default;
+    padding-left: 30px;
+}
+
+.descriptionText {
+    font-size: 16px;
+    padding: 10px;
+    color: gray;
+    font-weight: 400;
+    overflow: hidden;
+    cursor: default;
+    padding-left: 30px;
+}
+
+.DetailsButton {
+    display: flex;
+    align-items: center;
+    background-color: #fc0067;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.DetailsButtonClick {
+    display: flex;
+    align-self: center;
+    background-color: #312951;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.DetailsButtonText {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.CourseDetailsContainer {
+    height: 300px;
+    width: 350px;
+    overflow: visible;
+    background-color: #ffe6f0;
+}
+
+.TopheadingContainer {
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.CourseDetailsInnerTExt {
+    font-size: 18px;
+    color: #312951;
+    /* font-family: poppins; */
+    font-weight: 400;
+}
+
+.CourseTopDiscription {
+    font-size: 12px;
+    /* color:lightgray ; */
+    /* font-family: poppins; */
+    font-weight: 400;
+}
+
+.innerDetailsContainer {
+    display: flex;
+    padding-left: 20px;
+    /* align-items: center; */
+    /* gap: 20px; */
+    height: auto;
+}
+
+.innerDetailsContainerText1 {
+    font-size: 14px;
+    /* font-family: poppins; */
+    background-color: red;
+}
+
+.innerDetailsContainerText2 {
+    font-size: 12px;
+    /* font-family: poppins; */
+    /* padding-left: 10px; */
+}
+
+.CourseDaName {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.CourseDaRole {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.CourseDaDisc {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.ViewCourseDiv {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fc0067;
+    color: white;
+    width: 40%;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.userInterface {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    background-color: rgb(242, 239, 239);
+    /* overflow: hidden; */
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.dataItem {
+    margin-bottom: 20px;
+}
+
+.dataLabel {
+    font-weight: 500;
+    margin-bottom: 5px;
+    /* font-family: poppins; */
+    font-size: 16px;
+    color: #312951;
+}
+
+.dataValue {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    /* font-family: poppins; */
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.RealFinalPriceContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.RealPrice {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: black;
+    cursor: default
+}
+
+.FinalPrice {
+    /* padding-right: 60px; */
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    cursor: default
+}
+
+.OffPrice {
+    display: flex;
+    /* padding-left: 110px; */
+    color: blue;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: default
+}
+
+.CoursePriceContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 30px;
+    justify-content: space-between;
+}
+
+
+
+
+.topMainConatiner {
+    height: 85vh;
+    /* background-color: lightgray; */
+    overflow: hidden;
+    background-size: cover;
+}
+
+.TunTun {
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.TheMain {
+    width: 83%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    /* align-items: center; */
+    margin-top: 100px;
+    height: 100%;
+    gap: 30px;
+    padding-left: 70px;
+}
+
+.TheLeftConatiner {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.CareerTopTextContainer {
+    border-radius: 10px;
+    background-color: rgb(250, 201, 111);
+    /* padding: 5px 10px; */
+    padding: 7px 3px;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.SmallLeftTopText {
+    margin-top: 40px;
+    font-size: 18px;
+    width: 75%;
+}
+
+.GetJobTopText {
+    font-size: 40px;
+    width: 80%;
+}
+
+.CareerTopText {
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.DisplayFlexIconAll {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.iconTextMainDiv {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.LeftIconTextConatiner {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.iconDiv {
+    /* padding: 0px 13px; */
+    background-color: white;
+    border: 1px solid black;
+    /* width: 60%; */
+    width: 50px;
+    height: 50px;
+    /* padding: 20px; */
+
+    border-radius: 150px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.OurTopDiv {
+    border-radius: 20px;
+    background-color: #fc00699a;
+    text-align: center;
+    padding: 8px;
+}
+
+.Image {
+    height: 100px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.RightFlexConatiner {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TopOneRight {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.BottomOneRight {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.PinkBoxHeading {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.PinkBoxPara {
+    font-size: 16px;
+}
+
+.BoxRightPinkContainer {
+    background-color: #fc00699a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* width: 30%; */
+    border-radius: 10px;
+    color: white;
+    /* flex-wrap: wrap; */
+    /* width: 30%; */
+}
+
+.AllCourseConatiner {
+    margin: 80px 0px;
+}
+
+.AllCourseConatinerTheMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 83%;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+
+}
+
+.CourseStartConrainer {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 10px 0px;
+    /* padding: 0px 15px; */
+
+}
+
+.AllCourseConatinerTopText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.AllCourseConatinerTopMainText {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.AllCourseConatinerTopTextPara {
+    font-size: 18px;
+}
+
+.MainContainer {
+    max-width: 1400px;
+    width: 84%;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 1px solid lightgray;
+}
+
+.TextContainer11 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+}
+
+.InnerContainer {
+    /* background-color: blue; */
+    /* height: 700px; */
+    padding-top: 40px;
+}
+
+.ButtonAdvance {
+    width: 70%;
+    padding: 10px 30px;
+    background-color: #fc0067;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.AdvanceText {
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+
+.ImageContainer {
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.Container {
+    display: flex;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 400px;
+    height: 450px;
+    /* background-position: center; */
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    margin: 0px 20px;
+    transition: 0.3s;
+    /* position: relative; */
+    margin-top: 50px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+.DataConatiner {
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.CarouselImage {
+    display: none;
+}
+
+.FreeHeadText {
+    font-size: 32px;
+    color: #312951;
+}
+
+.Container:hover {
+    transform: translateY(-15px);
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width:1200px) {
+    .Container {
+        max-width: 500px;
+        height: 350px;
+    }
+
+    .topMainConatiner {
+        height: auto;
+    }
+
+    .MainContainer {
+        width: 83%;
+        align-items: center;
+    }
+
+    .FreeHeadText {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .Container {
+        max-width: 400px;
+        height: 300px;
+    }
+
+    .MainContainer {
+        width: 83%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .FreeHeadText {
+        font-size: 24px;
+    }
+
+    .ButtonAdvance {
+        width: 55%;
+        padding: 8px 17px;
+        background-color: #fc0067;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .TextContainer {
+        align-items: center;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:796px) {
+    .TextContainer {
+        display: flex;
+        align-items: center;
+        color: #fff;
+    }
+
+    .UpperText {
+        font-size: 40px;
+    }
+
+    .paraText {
+        font-size: 18px;
+    }
+
+    .TheMain {
+        width: 100%;
+        /* margin: auto; */
+        /* border: 1px solid black; */
+        margin-top: 20px;
+        flex-wrap: wrap;
+        height: 100%;
+        padding-left: 0px;
+    }
+
+    .CareerTopTextContainer {
+        display: none;
+    }
+
+    .GetJobTopText {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .TheLeftConatiner {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .HaveText {
+        text-align: center !important;
+    }
+
+    .topMainConatiner {
+        height: auto;
+    }
+
+    .OurTopDiv {
+        display: none;
+    }
+
+    .CarouselImage {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        max-width: 1000px;
+        margin: 0px 20px;
+        margin-top: -50px;
+        /* background-color: red; */
+    }
+
+    .BoxRightPinkContainer {
+        display: none;
+    }
+
+    .ContainerImage {
+        height: 100px;
+        width: 100px;
+    }
+
+    .InnerContainer1111 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        padding: 10px;
+        background-color: lightcyan;
+        margin-bottom: 50px;
+
+    }
+
+    .AllCourseConatinerTopMainText {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .AllCourseConatinerTopTextPara {
+        text-align: center;
+    }
+
+    .AllCourseConatinerTheMain {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ContainerImageNiche {
+        height: 300px;
+        width: 80%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .TheleftOne {
+        padding: 0px 20px;
+        padding-bottom: 40px;
+
+    }
+
+    .CourseDaName {
+        font-size: 20px;
+    }
+
+    .DataConatiner {
+        border: 1px solid black;
+        padding: 7px;
+        border-radius: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .ViewCourseDiv {
+        padding: 10px;
+        width: 30%;
+        margin-top: 40px;
+        font-size: 18px;
+    }
+
+    .SmallLeftTopText {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:777px) {
+    .TextContainer {
+        display: flex;
+        align-items: center;
+    }
+
+    .UpperText {
+        font-size: 40px;
+    }
+
+    .paraText {
+        font-size: 18px;
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+    .SmallLeftTopText {
+        margin-top: 20px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .GetJobTopText {
+        font-size: 18px;
+    }
+
+    .iconDiv {
+        width: 30px;
+        height: 30px;
+        /* padding: 20px; */
+
+        border-radius: 150px;
+        /* text-align: center; */
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        justify-content: center;
+
+    }
+
+    .LeftIconTextConatiner {
+        gap: 5px;
+    }
+
+    .DisplayFlexIconAll {
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .DataConatiner {
+        border: 1px solid black;
+        padding: 2px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+
+    .TargetDivCC {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ViewCourseDiv {
+        padding: 8px;
+        width: 50%;
+        margin-top: 40px;
+        font-size: 16px;
+    }
+
+    .TextContainer11 {
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .ButtonAdvance {
+        font-size: 16px;
+        width: 50%;
+        padding: 4px 0px;
+    }
+}
+
+@media screen and (max-width:494px) and (min-width :465px) {
+    .DetailsButton {
+        padding: 5px;
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+    .DetailsButtonText {
+        font-size: 11px;
+        font-weight: 400;
+        overflow: hidden;
+    }
+}
+
+/* @media screen and (max-width:430px) {
+    .ContainerLargeScreenSize {
+        display: none;
+    }
+
+    .ContainerMiddleScreenSize {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        max-height: 600px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .DetailsButton {
+        padding: 5px;
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+    .DetailsButtonText {
+        font-size: 11px;
+        font-weight: 400;
+        overflow: hidden;
+    }
+} */

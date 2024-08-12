@@ -1,0 +1,264 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    margin: auto;
+    width: 95%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    height: 100vh;
+    /* background-color: rgba(255, 192, 203, 0.392); */
+    /* background-color: #57cb9d58; */
+    /* background-color: #7e5b16; */
+    gap: 10%;
+}
+
+.Maincontainer {
+    height: 550px;
+    width: auto;
+    overflow: hidden;
+    border-radius: 7px;
+    min-width: 350px;
+    transform: translateX(100px);
+    /* margin-left: 15%; */
+
+}
+
+.Textcontainer {
+    height: auto;
+    max-width: 800px;
+    overflow: hidden;
+    background-color: white;
+    padding: 50px 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* border-radius: 20px; */
+}
+
+.Adjustimagediv {
+    display: none;
+}
+
+.image {
+    /* height: 400px;
+    width: 400px;  */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 20px; */
+}
+
+.MainHeading {
+    color: #312951;
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+
+.Subheading {
+    font-size: 33px;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.smallDiv {
+    margin-bottom: 20px;
+
+}
+
+.InnerText {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.CEOName {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.CEOPosition {
+    font-size: 16px;
+    font-weight: 400;
+    /* margin-bottom: 3px; */
+}
+
+@media screen and (max-width:840px) {
+    .Maincontainer {
+        height: 350px;
+        width: auto;
+        overflow: hidden;
+        border-radius: 7px;
+        min-width: 250px;
+        transform: translateX(-30px);
+        /* margin-left: 15%; */
+
+    }
+
+    .container {
+        gap: 5%;
+    }
+
+    .MainHeading {
+        margin-bottom: 4px;
+        font-size: 32px;
+    }
+
+    .Subheading {
+        font-size: 30px;
+    }
+
+    .InnerText {
+        font-size: 21px;
+    }
+
+    .CEOName {
+        font-size: 16px;
+    }
+
+    .CEOPosition {
+        font-size: 14px;
+    }
+
+    .Textcontainer {
+        height: auto;
+        max-width: 1000px;
+        overflow: hidden;
+        background-color: white;
+        padding: 50px 40px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width:710px) {
+
+    .container {
+        gap: 5%;
+    }
+
+    .MainHeading {
+        margin-bottom: 4px;
+        font-size: 1.7rem;
+    }
+
+    .Subheading {
+        font-size: 1.7rem;
+    }
+
+    .InnerText {
+        font-size: 18px;
+    }
+
+    .CEOName {
+        font-size: 15px;
+    }
+
+    .CEOPosition {
+        font-size: 14px;
+    }
+
+    .paratext {
+        font-size: 14px;
+    }
+
+    .Textcontainer {
+        height: auto;
+        max-width: 1000px;
+        overflow: hidden;
+        background-color: white;
+        padding: 50px 40px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width:585px) {
+    .Maincontainer {
+        display: none;
+    }
+
+    .MainHeading {
+        margin-bottom: 4px;
+        font-size: 1.5rem;
+    }
+
+    .Subheading {
+        font-size: 1.5rem;
+    }
+
+    .InnerText {
+        font-size: 18px;
+    }
+
+    .CEOName {
+        font-size: 15px;
+    }
+
+    .CEOPosition {
+        font-size: 14px;
+    }
+
+    .paratext {
+        font-size: 14px;
+    }
+
+    .Textcontainer {
+        height: auto;
+        max-width: 800px;
+        /* margin-left: 60px; */
+        overflow: hidden;
+        background-color: white;
+        padding: 20px 20px;
+        /* border-radius: 20px; */
+        border-top-left-radius: 20px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .Adjustimagediv {
+        display: block;
+        height: 180px;
+        width: 150px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        overflow: hidden;
+
+        /* img {
+            display: block;
+        } */
+    }
+
+    .imageAdjust {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .Adjustimagediv {
+        margin-top: 60px;
+
+    }
+
+    .container {
+        overflow: hidden;
+        height: auto;
+
+    }
+}
+
+@media screen and (max-width:380px) {
+    .Adjustimagediv {
+        margin-top: 90px;
+    }
+
+    .container {
+        height: auto;
+        background-color: red;
+    }
+}

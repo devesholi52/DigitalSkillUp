@@ -1,0 +1,50 @@
+.container {
+    margin: 0px 40px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.PrivacyText {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #312951;
+}
+
+.paratext {
+    font-size: 16px;
+}
+
+@media screen and (max-width:700px) {
+    .PrivacyText {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .paratext {
+        font-size: 15px;
+    }
+
+    .container {
+        margin: 70px 30px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .PrivacyText {
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .paratext {
+        font-size: 14px;
+    }
+
+    .container {
+        margin: 50px 20px;
+        margin-top: 100px;
+    }
+}

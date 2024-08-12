@@ -1,0 +1,137 @@
+.Container {
+    margin: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.AllCourseConatinerTopMainText {
+    font-size: 35px;
+    font-weight: 500;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.AllCourseConatinerTopTextPara {
+    font-size: 18px;
+    text-align: center;
+}
+
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: -120px; */
+}
+
+.AAA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: auto;
+}
+
+.ImageContainer {
+    height: 300px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top: 70px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.Image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Name {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.Para {
+    font-size: 16px;
+}
+
+.MainContainer:hover {
+    transform: translateY(-40px);
+}
+
+@media screen and (max-width:1300px) {
+    .ImageContainer {
+        height: 200px;
+        width: 200px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .AllCourseConatinerTopMainText {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .AllCourseConatinerTopTextPara {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .ImageContainer {
+        height: 150px;
+        width: 150px;
+        margin-top: 0px;
+    }
+
+    .AAA {
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .Name {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .Para {
+        font-size: 16px;
+    }
+
+    .MainContainer:hover {
+        transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width:430px) {
+    .ImageContainer {
+        height: 100px;
+        width: 100px;
+    }
+
+    .AAA {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .Name {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .Para {
+        font-size: 14px;
+    }
+}

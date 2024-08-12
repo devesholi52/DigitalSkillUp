@@ -1,0 +1,496 @@
+.container {
+    height: 70px;
+    background-color: white;
+    /* position: fixed; */
+    z-index: 9999;
+    width: 100%;
+    transform: none;
+    /* background-color: #fde0ec96; */
+    overflow: visible;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.1)
+}
+
+.TopContainer {
+    max-width: 1550px;
+    padding: "0px 40px";
+    margin: auto;
+    width: 76%;
+    height: 100%;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    overflow: visible;
+}
+
+
+.TopTextButtonContainer {
+    display: flex;
+    margin-left: 50px;
+}
+
+.buttonView {
+    background-color: #fc0067;
+    margin-left: 30px;
+    padding: 7px 30px;
+    border-radius: 8px;
+}
+
+.CourseButton {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbarContainer {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 30px;
+    position: relative;
+    overflow: visible;
+    /* background-color: #000; */
+}
+
+.DropDownMainText {
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.DropDownContainer {
+    display: none;
+    overflow: visible;
+    background-color: white;
+    position: absolute;
+    left: 45%;
+    top: 70px;
+    height: auto;
+    padding: 10px 0px;
+    text-align: center;
+    min-width: 130px;
+    transform: translateX(-50%);
+    transition: all .3s;
+    z-index: 100;
+}
+
+.dropDownMainTextContainer {
+    display: flex;
+    /* flex-direction: column; */
+    height: 70px;
+    align-items: center;
+    /* overflow: visible; */
+    /* justify-content: center; */
+    /* background-color: red; */
+}
+
+
+.dropDownMainTextContainer:hover .DropDownContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.DropDownContainer:hover {
+    display: flex;
+}
+
+
+.AboutUsText {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.MobileViewMoreContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactUsText {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.BlogsText {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.IConTop {
+    display: none;
+}
+
+.applyNowButton {
+    display: none;
+}
+
+.NavBArActiveText {
+    font-size: 18px;
+    /* font-family: poppins; */
+    font-weight: 600;
+    color: #fc0067;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.NavBArActiveText {
+    font-size: 18px;
+    /* font-family: poppins; */
+    font-weight: 600;
+    color: #fc0067;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.NavBArActiveTextdrop {
+    font-size: 17px;
+    /* font-family: poppins; */
+    font-weight: 600;
+    color: #fc0067;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.navbarText:hover {
+    font-size: 17px;
+    /* font-family: poppins; */
+    font-weight: 500;
+    color: #fc0067;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.navbarText {
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.SignupButton {
+    background-color: #fc0067;
+    border-radius: 8px;
+}
+
+.InstructorButton {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+.InstructorButton:hover {
+    background-color: #fc0067;
+    color: white;
+    border: transparent;
+    transition: all 0.5s;
+
+}
+
+.InstructorbuttonText:hover {
+    color: white;
+}
+
+.InstructorbuttonText {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.signupbuttonText {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 20px;
+    cursor: pointer
+}
+
+.ImageContainer {
+    display: flex;
+    margin-left: 50px;
+}
+
+.TopLeftImage {
+    height: 500px;
+    width: 700px;
+    border-radius: 40px;
+    margin: 20px 0px 10px 40px;
+}
+
+.containerText {
+    padding: 60px 50px 0px 60px;
+    box-shadow: 7px 0px 20px 0px lightgray;
+    border-radius: 40px;
+    margin: 20px 0px 10px 20px;
+    position: relative;
+    /* z-index: 20px; */
+    right: 80px;
+    background-color: #fff;
+}
+
+.UpSkillsText {
+    font-size: 40pxpx;
+}
+
+.IconTextContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.TextWithRadioButton {
+    color: grey;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+.SelectionText {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.Explorebutton {
+    background-color: brown;
+    max-width: 200px;
+    padding: 10px;
+    margin-top: 35px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.ExplorebuttonText {
+    color: #fff;
+    font-size: 18px;
+}
+
+.bannerRouteContainer {
+    display: flex;
+    border-width: 2;
+    margin-top: 70px;
+    justify-content: center;
+    /* gap: 100px  */
+}
+
+.bannerContainers {
+    border-color: black;
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+}
+
+.bannerText {
+    font-size: 20px;
+}
+
+.applyNowIconContainer {
+    display: none;
+}
+
+.HeadlineTextIconContainer {
+    padding-left: 15px;
+    border-bottom: 1px solid lightgray;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+
+    /* height: 10%; */
+}
+
+.InnerDropdownContainer {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-top: 10px; */
+    padding-bottom: 10px;
+
+    /* height: 10%; */
+}
+
+.HeadlineTextIconContainerMore {
+    padding-left: 15px;
+    border-bottom: 1px solid lightgray;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 20px;
+    padding-bottom: 10px;
+
+    /* height: 10%; */
+}
+
+.iconSidebar {
+    color: #fc0067;
+    font-size: 20px;
+}
+
+.iconSidebarActive {
+    color: orange;
+    font-size: 25px;
+}
+
+.iconSidebarActiveDrop {
+    color: orange;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1250px) {
+    .TopContainer {
+        margin: auto;
+        width: 83%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .TopContainer {
+        margin: auto;
+        width: 95%;
+    }
+
+    .applyNowIconContainer {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        flex-direction: row;
+        border-radius: 8px;
+        /* background-color: red; */
+    }
+
+    .IConTop {
+        display: inline;
+        color: black;
+        font-size: 23px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    .applyNowButton {
+        background-color: #fc0067;
+        display: flex;
+        align-items: flex-end;
+        border-radius: 8px;
+        margin-right: 20px;
+    }
+
+    .applyNowText {
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 8px 20px;
+    }
+
+    .navbarContainer {
+        display: none;
+    }
+
+    .sideNav {
+        position: fixed;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        left: -250px;
+        width: 250px;
+        height: 100%;
+        background-color: #f5f5f5;
+        transition: 0.5s;
+        z-index: 60;
+    }
+
+    .sideNavBArText {
+        font-size: 16px;
+        /* font-family: poppins; */
+        font-weight: 500;
+        /* padding: 20px; */
+        margin-left: 16px;
+        text-decoration: none;
+        margin-top: 2px;
+        color: rgba(0, 0, 0, 0.721);
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .sideNavBArTextActive {
+        font-size: 18px;
+        /* font-family: poppins; */
+        font-weight: 600;
+        /* padding: 20px; */
+        margin-left: 14px;
+        text-decoration: none;
+        margin-top: 2px;
+        color: orange;
+
+    }
+
+    .sideNav.open {
+        left: 0;
+        /* padding-top: 60px; */
+    }
+
+    .SignupButton {
+        width: 50%;
+        margin: 10px 30px;
+    }
+
+    .signupbuttonText {
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 8px 10px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .TopContainer {
+        margin: auto;
+        width: 95%;
+    }
+
+    .applyNowIconContainer {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .IConTop {
+        display: inline;
+        color: black;
+        font-size: 20px;
+        margin-top: 3px
+    }
+
+    .applyNowButton {
+        background-color: #fc0067;
+        display: flex;
+        align-items: flex-end;
+        border-radius: 6px;
+        padding: 7px;
+    }
+
+    .applyNowText {
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 4px 10px;
+    }
+}

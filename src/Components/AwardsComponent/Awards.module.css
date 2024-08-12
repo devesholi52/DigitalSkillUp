@@ -1,0 +1,35 @@
+.CourseViewContainer {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 70px
+        /* margin-bottom:70px ; */
+}
+
+.innertextContainer {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.ContainerImage {
+    height: 120px;
+    width: 120px;
+}
+
+.InnerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width:550px) {
+    .ContainerImage {
+        height: 70px;
+        width: 70px;
+    }
+
+    .innertextContainer {
+        font-size: 14px;
+    }
+}

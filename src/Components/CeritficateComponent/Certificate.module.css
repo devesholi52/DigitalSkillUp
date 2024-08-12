@@ -1,0 +1,307 @@
+.MainContainer {
+    /* border-radius: 20px; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 45px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.TopTextHeading {
+    text-align: center;
+    display: flex;
+    /* align-items: center; */
+    align-self: center;
+    justify-content: center;
+    /* padding: 20px 70px; */
+    margin-bottom: 13px;
+    color: #312951;
+    font-weight: 700;
+    cursor: default;
+    font-size: 32px;
+    margin-top: 20px;
+    /* border: 1px solid #f36ba465; */
+}
+
+.crololo {
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    width: 82%;
+}
+
+.TopContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.Container {
+    display: flex;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 340px;
+    height: 320px;
+    background-position: center;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin: 0px 40px;
+    transition: 0.3s;
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.innerTextcontainer {
+    display: none;
+}
+
+/* .Container:hover .innerTextcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+} */
+.innerdiv {
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(to bottom, #b1008b7d, #ffae0b8f); */
+    background-color: #f57ea4;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.Container:hover .innerdiv {
+    opacity: 1;
+}
+
+.Container:hover .TopText {
+    /* color: #312951; */
+    color: white;
+    font-weight: 700;
+}
+
+.TopText {
+    font-size: 20px;
+    color: #312951;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.paragrphText {
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    font-weight: 400;
+    padding-top: 10px;
+    cursor: default
+}
+
+@media screen and (max-width:1310px) {
+    .crololo {
+        padding-left: 0px;
+        /* margin-right: 60px; */
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .Container {
+        height: 240px;
+        max-width: 250px;
+        margin-top: 0px;
+    }
+
+    .TopContainer {
+        height: 300px;
+    }
+
+    .paragrphText {
+        padding-top: 10px;
+    }
+
+    .TopText {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+
+    /* .Container:hover {
+        transform: translateY(30px);
+        height: 230px;
+        height: 240px;
+    } */
+}
+
+@media screen and (max-width:810px) {
+    .Container {
+        height: 200px;
+        width: 200px;
+        /* border: 1px solid black; */
+    }
+
+    .TopContainer {
+        height: 200px;
+    }
+
+    .TopTextHeading {
+        font-size: 1.5rem;
+        padding-top: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+
+    .TopText {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+
+    .paragrphText {
+        font-size: 11px;
+        color: #fff;
+        font-weight: 400;
+        padding-top: 10px;
+        cursor: default
+    }
+
+    .crololo {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:706px) {
+    .Container {
+        height: 200px;
+        width: 280px;
+    }
+
+    .TopContainer {
+        height: 200px;
+    }
+
+    .TopTextHeading {
+        font-size: 1.7rem;
+        padding-top: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+
+    .TopText {
+        font-size: 13px;
+        color: #fff;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .Container {
+        height: 180px;
+        max-width: 180px;
+    }
+
+    .TopContainer {
+        height: 200px;
+        /* padding: 0px 90px; */
+    }
+
+    .TopTextHeading {
+        font-size: 1.5rem;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 25px;
+    }
+
+    .MainContainer {
+        margin-top: 0px;
+        /* border-top: 1px solid lightgray; */
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width:471px) {
+    .Container {
+        height: 180px;
+        max-width: 280px;
+        margin-left: 80px;
+        margin-top: 0px;
+    }
+
+    .TopContainer {
+        height: 200px;
+    }
+
+    .TopTextHeading {
+        font-size: 1.5rem;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+
+    .MainContainer {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:422px) {
+    .Container {
+        height: 180px;
+        max-width: 270px;
+        margin-left: 65px;
+        margin-top: 0px;
+    }
+
+    .TopContainer {
+        height: 200px;
+    }
+
+    .TopTextHeading {
+        font-size: 1.5rem;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+
+    .MainContainer {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .Container {
+        height: 170px;
+        max-width: 230px;
+        margin-left: 70px;
+    }
+
+    .TopTextHeading {
+        font-size: 1.3rem;
+        padding-top: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+
+    .TopContainer {
+        height: 180px;
+    }
+}

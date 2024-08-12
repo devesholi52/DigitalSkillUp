@@ -1,0 +1,67 @@
+.MainContainer {
+    background-color: rgba(255, 192, 203, 0.449);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.InnerContainer {
+    height: auto;
+    max-width: 430px;
+    margin: auto;
+    width: 95%;
+    background-color: white;
+    padding: 10px 40px;
+}
+
+.imageContainer {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+.image {
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+}
+
+.LoginText {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.inputDiv {
+    margin: 30px 0px;
+}
+
+.InputBox {
+    width: 100%;
+    padding: 7px 6px;
+    margin-top: 10px;
+}
+
+.SmallOtpText {
+    font-size: 12px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.TermPrivacyText {
+    font-size: 12px;
+    margin-top: 13px;
+
+}
+
+.ButtonDiv {
+    width: 50%;
+    font: white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 192, 203, 0.449);
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}

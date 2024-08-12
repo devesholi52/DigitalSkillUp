@@ -1,0 +1,91 @@
+.Container {
+    margin: auto;
+    width: 76%;
+    margin-top: 80px;
+}
+
+
+.TopContainer {
+    width: 100%;
+}
+
+.TopText {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    color: #312951;
+}
+
+.TopImage {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.MainCardConatiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    height: auto;
+    overflow: hidden;
+    /* border: 1px solid black; */
+    /* margin-top: 50px; */
+    /* margin-bottom: 80px; */
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.card {
+    height: auto;
+    max-width: 350px;
+    border-radius: 15px 30px;
+    /* border-bottom-right-radius: 30px; */
+    /* border: 1px solid lightgray; */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    /* padding: 20px; */
+}
+
+.image {
+    /* height: 200px;
+    width: 100%;
+    object-fit: cover; */
+    font-size: 150px;
+    color: #fc0067;
+    text-align: center;
+}
+
+.NameText {
+    /* margin-top: 8px; */
+    margin-bottom: 15px;
+    padding: 0px 15px;
+    text-align: center;
+}
+
+.ParaText {
+    padding: 0px 15px;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    color: rgb(87, 86, 86);
+}
+
+@media screen and (max-width:1000px) {
+    .TopText {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .Container {
+        margin: auto;
+        width: 95%;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .TopText {
+        font-size: 24px;
+    }
+}

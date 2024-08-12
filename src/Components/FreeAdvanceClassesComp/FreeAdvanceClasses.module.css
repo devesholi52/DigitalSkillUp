@@ -1,0 +1,132 @@
+.MainContainer {
+    max-width: 1400px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.TextContainer {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+}
+
+.InnerContainer {
+    /* background-color: blue; */
+    /* height: 700px; */
+    padding-top: 40px;
+}
+
+.ButtonAdvance {
+    width: 70%;
+    padding: 10px 30px;
+    background-color: #fc0067;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.AdvanceText {
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+
+.ImageContainer {
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.Container {
+    display: flex;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 400px;
+    height: 450px;
+    /* background-position: center; */
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    margin: 0px 20px;
+    transition: 0.3s;
+    /* position: relative; */
+    margin-top: 50px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+.FreeHeadText {
+    font-size: 32px;
+    color: #312951;
+}
+
+.Container:hover {
+    transform: translateY(-15px);
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width:1200px) {
+    /* .Container {
+        max-width: 500px;
+        height: 350px;
+    } */
+
+    .MainContainer {
+        width: 83%;
+        align-items: center;
+    }
+
+    .FreeHeadText {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    /* .Container {
+        max-width: 400px;
+        height: 300px;
+    } */
+
+    .MainContainer {
+        width: 83%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .FreeHeadText {
+        font-size: 24px;
+    }
+
+    .ButtonAdvance {
+        width: 55%;
+        padding: 8px 17px;
+        background-color: #fc0067;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .TextContainer {
+        align-items: center;
+    }
+}

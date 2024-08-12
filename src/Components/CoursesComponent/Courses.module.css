@@ -1,0 +1,828 @@
+.MainContainer {
+    padding: 30px 40px 50px 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.navbarunderCourse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    width: 95%;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    /* border-bottom: 1px solid rgb(145, 145, 145); */
+    border-bottom: 1px solid lightgray;
+    overflow: hidden;
+    /* gap: 160px; */
+}
+
+.tabs {
+    height: 40px;
+    display: flex;
+    padding-bottom: 6px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: green; */
+}
+
+.tabsActive {
+    height: 40px;
+    display: flex;
+    padding-bottom: 6px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: pink;
+}
+
+.navHeadingText {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(73, 72, 72);
+}
+
+.crololo {
+    width: 1150px;
+    /* background-color: red; */
+}
+
+.TopTextHeading {
+    /* font-size: 50px; */
+    padding-bottom: 30px;
+    text-align: center;
+    color: #312951;
+    font-size: 32px;
+    cursor: default;
+}
+
+.TopContainer {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; */
+    width: 100%;
+    margin: auto;
+    /* background-color: blue; */
+}
+
+.Container {
+    width: 340px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin: 10px;
+    color: white;
+}
+
+.ContainerImage {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.TopText {
+    font-size: 20px;
+    color: #312951;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: default
+}
+
+.TopTextdisc {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    cursor: default
+}
+
+.DetailsButton {
+    display: flex;
+    background-color: #fc0067;
+    padding: 10px;
+    /* width: 60%; */
+    /* margin: 0px 40px; */
+    margin-top: 20px;
+    /* border-radius: 8px; */
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.DetailsButtonText {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.CoursePriceContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 30px;
+    padding-top: 20px;
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.RealFinalPriceContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.RealPrice {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: black;
+    cursor: default
+}
+
+.FinalPrice {
+    /* padding-right: 60px; */
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    cursor: default
+}
+
+.OffPrice {
+    display: flex;
+    /* padding-left: 110px; */
+    color: blue;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: default
+}
+
+.TypeText {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.TypeConatiner {
+    /* gap: 80px; */
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    padding: 7px 0px;
+
+}
+
+.TypeConatinerActive {
+    background-color: #fc0067;
+    /* gap: 80px; */
+    width: 100%;
+    text-align: center;
+    padding: 7px 0px;
+}
+
+.TypeText {
+    color: rgba(0, 0, 0, 0.789);
+}
+
+.loadmorebutton {
+    padding: 7px 0px;
+    width: 15%;
+    background-color: orange;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    /* margin-left: 80px; */
+}
+
+.CategoryNameDivTheMain {
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 83%;
+    /* gap: 5%; */
+}
+
+.CategoryNameDiv {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.CategoryNameDivActive {
+    background-color: #fc0067;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    /* border: 1px solid gray; */
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.CategoryNameDiv:hover {
+    transform: translateY(-2px);
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: #fc0067;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+
+.CategoryName {
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.CategoryName:hover {
+    color: white;
+}
+
+.NVOuterMain {
+    margin: auto;
+    width: 83%;
+    /* max-width: 1000px; */
+    /* background-color: red; */
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.NVTopText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.AVrTextNV {
+    color: blue;
+    margin-top: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.NVTheLeftRightMain {
+    display: flex;
+    gap: 30px;
+    /* flex-wrap: wrap; */
+    /* border: 3px solid black; */
+}
+
+.NVTheLeft {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid #312951; */
+    width: 60%;
+}
+
+.LeftNVAvarageSalary {
+    display: flex;
+    margin: 10px 0px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.LeftNVAvarageSalaryInner {
+    display: flex;
+    gap: 20px;
+}
+
+.BasetextLeft {
+    border: 1px solid #fe4a9577;
+    background-color: #fb84b648;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.BasetextRight {
+    /* border: 1px solid black; */
+    background-color: rgb(211, 246, 211);
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 20px;
+    clip-path: polygon(10px 15%, 100% 0%, 100% 100%, 10px 85%, 0 50%);
+}
+
+.JobDiv {
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 20px;
+    width: 80%;
+    /* gap: 20px; */
+    margin: 20px 0px;
+    border-radius: 20px 10px 20px 10px;
+    background-color: rgba(211, 211, 211, 0.475);
+}
+
+.NumberTextNV {
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.JobDivSameSame {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+}
+
+.JobDivSameSame11 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    border-left: 1px solid black;
+    padding-left: 25px;
+}
+
+.studentView {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    /* padding: 0px 20px; */
+}
+
+.RecommendedText {
+    color: blue;
+    margin-top: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.NVTheRight {
+    /* background-color: red; */
+    /* max-width: 600px; */
+    width: 80%;
+}
+
+.Course1 {
+    border: 1px solid black;
+    border-radius: 20px;
+    /* width: 25%; */
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.Coursetwo1 {
+    border: 1px solid black;
+    border-radius: 20px;
+    /* width: 25%; */
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.Course1:hover {
+    transform: translateY(-10px);
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+.CourseImageDivNV {
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
+    margin-left: 60px;
+}
+
+.CourseImageDivNVtwo {
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.CourseImageNV {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    padding-left: 40px;
+
+}
+
+.CourseTittleNV {
+    font-size: 16px;
+    line-height: 24px;
+    overflow: hidden;
+    margin: 10px 0px;
+    font-weight: 500;
+    padding: 0px 15px;
+}
+
+.CourseStartConrainer {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 0px 15px;
+
+}
+
+.buttonMainDiv {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.buttonContainer {
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    /* background-color: lightblue; */
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.themainCourseDiv {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .NVTheLeftRightMain {
+        flex-wrap: wrap;
+    }
+
+    .CategoryNameDivTheMain {
+        display: flex;
+        margin: auto;
+        margin-bottom: 30px;
+        width: 95%;
+        overflow-x: scroll;
+        /* gap: 5%; */
+    }
+
+    .CategoryNameDiv {
+        border: 1px solid gray;
+        padding: 5px;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .CategoryNameDivActive {
+        background-color: #fc0067;
+        color: white;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        /* border: 1px solid gray; */
+        padding: 5px;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .CategoryNameDiv:hover {
+        transform: translateY(-2px);
+        overflow: hidden;
+        transition: 0.2s;
+        background-color: #fc0067;
+        color: white;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .CategoryName {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .Container {
+        width: 85%;
+        max-width: 250px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .themainCourseDiv {
+        flex-wrap: wrap;
+    }
+
+    .TopText {
+        font-size: 18px;
+    }
+
+    .DetailsButton {
+        /* width: 60%; */
+        /* margin:0px 60px; */
+        margin-top: 15px;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .DetailsButtonText {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+    .TopTextHeading {
+        font-size: 1.7rem;
+    }
+
+    .Container {
+        width: 90%;
+        height: auto;
+    }
+
+    .MainContainer {
+        padding: 30px 10px 50px 10px;
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+    .NVTheRight {
+
+        width: 80%;
+    }
+
+    .NVTheLeft {
+        width: 100%;
+    }
+
+    .Course1 {
+        width: 100%;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+    }
+}
+
+@media screen and (max-width:770px) {
+
+    .Container {
+        width: 95%;
+        height: auto;
+    }
+
+    .MainContainer {
+        padding: 30px 10px 50px 10px;
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+    .CategoryNameDivTheMain {
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+
+}
+
+@media screen and (max-width:850px) {
+    .navbarunderCourse {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:630px) {
+
+    .DetailsButton {
+        padding: 6px;
+        /* margin: 0px 40px; */
+        margin-top: 15px;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .TopText {
+        font-size: 18px;
+    }
+
+    .DetailsButtonText {
+        font-size: 16px;
+    }
+
+    .Container {
+        max-width: 85%;
+    }
+
+    .ContainerImage {
+        object-fit: cover;
+    }
+
+    .buttonContainer {
+        padding: 5px 10px;
+        font-size: 14px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+    .Course1 {
+        width: 100%;
+    }
+
+    .NVTheRight {
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .NVOuterMain {
+        margin: auto;
+        width: 100%;
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .NVTopText>h1 {
+        font-size: 20px;
+    }
+
+    .AVrTextNV {
+        font-size: 16px;
+    }
+
+    .JobDiv {
+        width: 100%;
+    }
+
+    .JobDivSameSame11 {
+        padding-left: 30px;
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (max-width:539px) {
+    .crololo {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .TopTextHeading {
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+
+    .NVTopText>h1 {
+        font-size: 20px;
+    }
+
+    .AVrTextNV {
+        font-size: 16px;
+    }
+
+    .crololo {
+        padding-left: 0px;
+    }
+
+    .ExploreTextCourse {
+        font-size: 16px !important;
+    }
+
+    /* .navbarunderCourse {
+        max-width: 500px;
+        margin: auto;
+        width: 95%;
+        height: 35px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        gap: 20px;
+    } */
+
+    .TypeText {
+        font-size: 16px;
+    }
+
+    .Container {
+        /* width: auto;
+        height: auto;
+        margin-left: 60px; */
+        width: 100%;
+        /* max-width: 250px; */
+        height: auto;
+        /* margin-bottom: 10px; */
+        /* margin-left: 60px; */
+    }
+
+    .MainContainer {
+        /* border: 1px solid lightgray; */
+        padding: 10px;
+
+    }
+
+    .TopContainer {
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width:430px) {
+
+    .Container {
+        /* width: auto;
+        height: auto;
+        margin-left: 60px; */
+        width: 100%;
+        /* max-width: 250px; */
+        height: auto;
+        /* margin-bottom: 10px; */
+        /* margin-left: 50px; */
+    }
+
+    .TopTextHeading {
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:420px) {
+
+    .Container {
+        /* width: auto;
+        height: auto;
+        margin-left: 60px; */
+        width: 100%;
+        /* max-width: 250px; */
+        height: auto;
+        /* margin-bottom: 10px; */
+        /* margin-left: 60px; */
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .Container {
+        /* width: auto;
+        height: auto;
+        margin-left: 60px; */
+        width: 100%;
+        /* max-width: 250px; */
+        height: auto;
+        /* margin-bottom: 10px; */
+        /* margin-left: 40px; */
+    }
+}
+
+@media screen and (max-width:370px) {
+    .MainContainer {
+        height: auto;
+    }
+
+    .TopTextHeading {
+        font-size: 1.5rem;
+        padding-bottom: 15px;
+    }
+
+    .Container {
+        /* width: 300;
+        height: auto;
+        border: 1px solid black; */
+        width: 90%;
+        /* max-width: 250px; */
+        height: auto;
+        margin-bottom: 10px;
+        /* margin-left: 20px; */
+    }
+
+    .DetailsButton {
+        padding: 7px;
+    }
+}

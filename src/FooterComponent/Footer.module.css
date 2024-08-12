@@ -1,0 +1,652 @@
+/* .TopMostContainer {
+    background-color: #de7da547;
+    height: auto;
+}
+
+.Container {
+    display: flex;
+    gap: 30px;
+}
+
+.innerContainer {
+    max-width: 1300px;
+    margin: auto;
+    width: 95%;
+    display: flex;
+    padding: 30px 20px;
+    gap: 120px;
+}
+
+.AboutContainer {
+    display: flex;
+    height: 80px;
+    width: 130px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.image {
+    height: 75%;
+    width: 75%;
+    object-fit: contain;
+}
+
+.logoBottomtext {
+    font-size: 16px;
+    font-weight: 400;
+    cursor: default;
+}
+
+.TopText {
+    font-size: 20px;
+    font-weight: 500;
+    color: #29347b;
+    cursor: default
+}
+
+.ParaText {
+    font-size: 14px;
+    color: black;
+    cursor: default;
+}
+
+.abc {
+    background-color: #fb489360;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.abcInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 78%;
+}
+
+.icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.iconspecial {
+    font-size: 25px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.CourseLinkContainer {
+    display: flex;
+    margin-left: 50px;
+    gap: 60px
+}
+
+.ParentText {
+    text-align: left;
+    width: fit-content;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.LogoDiv {
+    display: flex;
+    flex: 1;
+}
+
+.Main {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin: auto;
+    width: 78%;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.SubMain {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.SubMainHeading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #29347b;
+    cursor: default
+}
+
+.SubMainText {
+    font-size: 18px;
+    width: fit-content;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.CourseContainer {
+    flex: 1;
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    text-align: left;
+    gap: 8px;
+}
+
+.Mainkebaad {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CourseContaineractive {
+    flex: 1;
+    display: flex;
+    margin-right: 120px;
+    flex-direction: column;
+    text-align: left;
+    gap: 8px;
+    max-width: 300px;
+}
+
+.CoursesHeadingText,
+.QuickLinkText {
+    font-size: 1.5rem;
+}
+
+.bottomTextContainer {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.IconNumberEmailContainer {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.bottomText {
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+    color: #29347b;
+    text-align: center;
+    cursor: default
+}
+
+.IconContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 300px;
+    cursor: pointer
+}
+
+.CopyRightText {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.imageiconContainer {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.CourseContainernone {
+    display: none;
+}
+
+@media screen and (max-width:1250px) {
+    .CourseLinkContainer {
+        display: flex;
+        margin-left: 0px;
+        gap: 00px
+    }
+
+
+    .innerContainer {
+        display: flex;
+        margin: auto;
+        width: 85%;
+        gap: 20px;
+        padding-top: 60px;
+    }
+
+
+    .imageiconContainer {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .imageiconContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .innerContainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .IconContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto
+    }
+
+    .AboutContainer {
+        margin: auto
+    }
+
+    .imageiconContainer {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width:571px) {
+    .CourseLinkContainer {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        gap: 30px;
+        margin-top: -10px;
+    }
+
+    .imageiconContainer {
+        gap: 10px;
+        margin-top: -40px;
+    }
+
+    .CourseContaineractive {
+        display: none;
+    }
+
+    .CourseContainer {
+        gap: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .ParentText {
+        text-align: center;
+    }
+
+    .CourseContainer {
+        width: 60%;
+    }
+
+    .CourseContainernone {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 60%;
+        margin-top: -30px;
+        margin-bottom: 40px;
+    }
+
+    .Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TopText {
+        text-align: center;
+    }
+
+    .ParaText {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width:470px) {
+    .imageiconContainer {
+        gap: 5px;
+        margin-top: -40px;
+    }
+
+    .CourseLinkContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: -10px;
+    }
+
+    .TopText {
+        font-size: 18px;
+    }
+
+    .ParaText {
+        font-size: 13px;
+    }
+
+    .CopyRightText {
+        font-size: 12px;
+    }
+
+    .CourseLinkContainer {
+        margin-top: -10px;
+    }
+
+    .CourseContainernone {
+        margin-top: -20px;
+    }
+
+    .imageiconContainer {
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .ParentText {
+        font-size: 11px;
+    }
+
+    .imageiconContainer {
+        gap: 5px;
+        margin-top: -40px;
+    }
+
+    .TopText {
+        font-size: 16px;
+    }
+
+    .ParaText {
+        font-size: 12px;
+    }
+
+    .innerContainer {
+        gap: 20px;
+    }
+
+    .CourseContainernone {
+        margin-top: -30px;
+    }
+
+    .CourseLinkContainer {
+        margin-top: -10px;
+    }
+} */
+
+
+
+.Conatiner {
+    width: 100%;
+    height: auto;
+    background-color: #de7da547;
+    padding-bottom: 30px;
+}
+
+.MainConatiner {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 76%;
+    height: 100%;
+    /* border: 1px solid black; */
+    padding-top: 40px;
+}
+
+.LeftConatiner {
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.rightConatiner {
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: end;
+}
+
+.image {
+    height: 180px;
+    width: 300px;
+
+    object-fit: contain;
+}
+
+.QuickinksConatiner {
+    height: auto;
+    width: auto;
+    /* background-color: yellow; */
+}
+
+.OtherLinksConatiner {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+}
+
+.imageSmallScreen {
+    display: none;
+}
+
+.OnlineCourseConatiner {
+    height: auto;
+    width: auto;
+    /* display: flex; */
+    /* background-color: brown; */
+}
+
+.CourseConatineMini {
+    display: none;
+}
+
+.PreRecordedContainer {
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    /* background-color: chartreuse; */
+}
+
+.CourseConatiner {
+    height: auto;
+    width: auto;
+    gap: 20px;
+    /* background-color: crimson; */
+}
+
+.TopText {
+    font-size: 20px;
+    font-weight: 500;
+    color: #29347b;
+    cursor: default;
+    margin-bottom: 10px;
+}
+
+.ParentText {
+    text-align: left;
+    /* width: fit-content; */
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-decoration: none;
+
+}
+
+.SubMainText {
+    font-size: 18px;
+    width: fit-content;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    /* margin-top: 10px; */
+    margin-right: 5px;
+    /* margin-left: 20px; */
+    cursor: pointer;
+}
+
+.CourseContaineractive {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* background-color: red; */
+    gap: 8px;
+    width: 300px;
+    /* max-width: 300px; */
+}
+
+.CourseContaineractivemini {
+    display: none;
+}
+
+.IconNumberEmailContainer {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.abc {
+    background-color: #fb489360;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.abcInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 78%;
+}
+
+.icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.iconspecial {
+    font-size: 25px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.CopyRightText {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.IconContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 300px;
+    cursor: pointer
+}
+
+@media screen and (max-width:1150px) {
+    .image {
+        width: 150px;
+        /* padding-right: 50px;
+        margin-left: 40px; */
+    }
+}
+
+@media screen and (max-width:950px) {
+
+    .rightConatiner {
+        justify-content: flex-start;
+        /* margin-left: 100px; */
+        /* background-color: red; */
+    }
+
+    .LeftConatiner {
+        gap: 10px;
+        /* margin-right: 40px; */
+    }
+
+    .image {
+        width: 350px;
+        padding-right: 50px;
+        /* margin-left: 40px; */
+    }
+}
+
+@media screen and (max-width:800px) {
+    .TopText {
+        font-size: 16px;
+    }
+
+    .ParentText {
+        font-size: 14px;
+
+    }
+
+    .SubMainText {
+        font-size: 14px;
+    }
+
+    .CopyRightText {
+        font-size: 14px;
+        /* font-weight: 500; */
+    }
+
+    .icon {
+        font-size: 18px;
+    }
+
+    .iconspecial {
+        font-size: 18px;
+    }
+
+    .abcInner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .image {
+        display: none;
+    }
+
+    .imageSmallScreen {
+        display: block;
+        height: 100px;
+        width: 200px;
+        margin: auto;
+        margin-top: 30px;
+        object-fit: contain;
+    }
+
+    .CopyRightText {
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .rightConatiner {
+        margin-left: 80px;
+    }
+}

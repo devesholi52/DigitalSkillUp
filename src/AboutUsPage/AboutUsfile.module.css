@@ -1,0 +1,426 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  /* position: relative; */
+}
+
+.topHeadingInImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  font-size: 38px;
+  padding: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.maintextwedo {
+  margin-top: 40px;
+  font-size: 32px;
+  color: #312951;
+  text-align: center;
+}
+
+.mainConatinerWhatwedo {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  /* flex-wrap: wrap; */
+  margin-bottom: 40px;
+  overflow: hidden;
+  /* background-color: red; */
+}
+
+.ContainerWhatweDo {
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  height: auto;
+  margin: auto;
+  width: 90%;
+  padding: 0px 10px;
+  padding-bottom: 15px;
+  /* min-width: 250px; */
+  /* border: 1px solid lightgray; */
+  /* width: 450px; */
+  justify-content: center;
+  text-align: center;
+  margin: 40px;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.TextWhatwedo {
+  /* text-align: center; */
+  padding: 15px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  /* color: #312951; */
+  color: #000;
+  /* font-family: poppins; */
+}
+
+.paraWhatweDo {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+  text-align: left;
+  padding: 0px 10px;
+  /* font-family: poppins; */
+}
+
+.TopTextHeading {
+  /* font-size: 50px; */
+  padding-bottom: 30px;
+  text-align: center;
+  color: #312951;
+}
+
+.DetailsButton {
+  display: flex;
+  align-self: center;
+  background-color: rgb(16, 102, 131);
+  padding: 10px;
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.DetailsButtonText {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.viratoutermostContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(227, 241, 236);
+  height: 500px;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 76%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.OwnerdaName {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.outerOne:hover .OwnerdaName {
+  display: none;
+}
+
+.outerOne {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  padding: 30px 50px;
+  background-color: #fff;
+  overflow: visible;
+}
+
+.OwnerCEOContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-80px);
+  overflow: visible;
+  z-index: 7;
+}
+
+.OwnerImage {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.outerOne:hover {
+  height: 250px;
+  background-color: white;
+}
+
+.KohliContainer {
+  padding: 10px 20px;
+  text-align: center;
+  /* transform: translateY(-100px); */
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.KohliText {
+  font-size: 14px;
+}
+
+.Kohlipara {
+  font-size: 12px;
+}
+
+.outerOne:hover .KohliContainer {
+  opacity: 1;
+  transform: translateY(-120px);
+}
+
+.CourseViewContainer {
+  margin: auto;
+  width: 76%;
+  background-color: white;
+  margin-bottom: 80px;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 1300px;
+  margin-left: 20px;
+
+}
+
+.ContainerImage {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.OurCompanyPartnerText {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #312951;
+}
+
+@media screen and (max-width:1268px) {
+  .viratoutermostContainer {
+    height: 750px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width:1050px) {
+  .viratoutermostContainer {
+    height: 700px;
+  }
+
+  .mainConatinerWhatwedo {
+    gap: 25px;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .ContainerWhatweDo {
+    margin: 20px;
+    height: auto;
+  }
+
+  .TextWhatwedo {
+    padding: 20px 0px;
+    font-size: 1.3rem;
+  }
+
+  .paraWhatweDo {
+    font-size: 16px;
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width:970px) {
+  .viratoutermostContainer {
+    height: auto;
+    overflow: hidden;
+    padding: 60px 0px;
+    padding-top: 80px;
+    gap: 80px;
+  }
+
+  .ContainerWhatweDo {
+    margin: 20px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:630px) {
+  .maintextwedo {
+    font-size: 1.7rem;
+  }
+
+  .viratoutermostContainer {
+    height: 900px;
+    /* padding-top: 30px; */
+  }
+
+  .ContainerImage {
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+  }
+}
+
+@media screen and (max-width:785px) {
+  .maintextwedo {
+    font-size: 1.7rem;
+  }
+
+  .mainConatinerWhatwedo {
+    height: auto;
+    display: flex;
+    /* width: auto; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .ContainerWhatweDo {
+    /* margin: 20px; */
+    width: 500px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .TextWhatwedo {
+    padding: 10px 0px;
+    font-size: 1.3rem;
+  }
+
+  .paraWhatweDo {
+    font-size: 16px;
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width:685px) {
+  .mainConatinerWhatwedo {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .TextWhatwedo {
+    padding: 10px 0px;
+    font-size: 1.3rem;
+  }
+
+  .paraWhatweDo {
+    font-size: 16px;
+    padding: 0px 20px;
+  }
+
+  .ContainerWhatweDo {
+    height: auto;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .maintextwedo {
+    font-size: 1.5rem;
+  }
+
+  .TopTextHeading {
+    font-size: 1.5rem;
+  }
+
+  .OurCompanyPartnerText {
+    font-size: 1.5rem;
+  }
+
+
+  .mainConatinerWhatwedo {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+
+  .ContainerWhatweDo {
+    height: auto;
+    /* max-width: 300px; */
+    width: 450px;
+    padding: 20px 0px;
+  }
+
+  .paraWhatweDo {
+    text-align: left;
+  }
+
+  .TextWhatwedo {
+    padding: 10px 0px;
+    font-size: 1.3rem;
+  }
+
+  .paraWhatweDo {
+    font-size: 16px;
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width:450px) {
+
+  .TopTextHeading {
+    font-size: 1.5rem;
+  }
+
+  .OurCompanyPartnerText {
+    font-size: 1.2rem;
+  }
+
+  .topHeadingInImage {
+    font-size: 1.7rem;
+    text-align: left;
+    padding: 110px 10px;
+  }
+
+  .ContainerImage {
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+  }
+
+  .paraWhatweDo {
+    font-size: 14px;
+  }
+
+  .ContainerWhatweDo {
+    height: auto;
+    /* max-width: 300px; */
+    width: 370px;
+    padding: 20px 0px;
+  }
+
+  .mainConatinerWhatwedo {
+    margin: 10px;
+    gap: 0px;
+    margin-bottom: 40px;
+  }
+
+  .viratoutermostContainer {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width:410px) {
+  .KohliContainer {
+    margin-top: -20px;
+    width: 180px;
+  }
+
+}

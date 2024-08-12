@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    border: 1px solid lightgray;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: auto;
+    width: 76%;
+    height: auto;
+}
+
+.imageContainer {
+    height: 600px;
+    width: 600px;
+    overflow: hidden;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.Textcontainer {
+    max-width: 500px;
+    text-align: justify;
+}
+
+.WhyText {
+    font-weight: 600;
+    font-size: 35px;
+    color: #312951;
+}
+
+.ParaText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+    color: gray;
+}
+
+
+@media screen and (max-width:1250px) {
+    .container {
+        flex-wrap: wrap;
+
+    }
+}
+
+@media screen and (max-width:750px) {
+    .WhyText {
+        font-weight: 600;
+        font-size: 30px;
+        color: #312951;
+    }
+
+    .container {
+        gap: 40px;
+        padding: 40px;
+    }
+
+    .ParaText {
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 20px;
+        color: gray;
+    }
+
+    .imageContainer {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .WhyText {
+        font-weight: 600;
+        font-size: 22px;
+        color: #312951;
+    }
+
+    .Textcontainer {
+        text-align: left;
+    }
+
+    .container {
+        margin: auto;
+        width: 95%;
+        padding: 20px;
+        height: auto;
+    }
+}

@@ -1,0 +1,77 @@
+.MainContainer {
+    background-color: rgba(255, 192, 203, 0.449);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.InnerContainer {
+    height: auto;
+    margin: auto;
+    max-width: 450px;
+    width: 95%;
+    background-color: white;
+    padding: 7px 20px;
+}
+
+.imageContainer {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+.image {
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
+
+.LoginText {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.inputDiv {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.InputBox {
+    width: 100%;
+    padding: 9px 6px;
+    margin-top: 10px;
+    /* border: none; */
+}
+
+.lockunlockIcon {
+    position: relative;
+    left: 94%;
+    bottom: 30px;
+    /* padding: 100px; */
+    display: flex;
+    align-items: center;
+}
+
+.ForgotPassText {
+    font-size: 11px;
+    margin-top: 6px;
+}
+
+.TermPrivacyText {
+    font-size: 12px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.ButtonDiv {
+    width: 50%;
+    font: white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 192, 203, 0.449);
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}

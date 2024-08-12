@@ -1,0 +1,251 @@
+.Container {
+    height: 100vh;
+    background-color: rgba(211, 211, 211, 0.17);
+    /* border: 1px solid lightgray; */
+    margin: auto;
+    width: 76%;
+    margin-bottom: 60px;
+    /* margin-top: 90px; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.LeftinnerContainerX {
+    height: 40%;
+    width: 70%;
+    /* background-color: red; */
+    background-color: rgb(227, 241, 236);
+}
+
+.TopTextHeading {
+    /* font-size: 50px; */
+    padding-bottom: 30px;
+    text-align: center;
+    color: #312951;
+}
+
+.heading {
+    position: absolute;
+    left: 40%;
+    top: 3%;
+    color: #312951;
+
+}
+
+.heading2 {
+    position: absolute;
+    /* font-size: 40px; */
+    left: 40%;
+    top: 10%;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.LeftinnerContainer {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(227, 241, 236);
+}
+
+/* .ImageContainer {
+    width: 500px;
+    height: 400px;
+    background-color: red;
+} */
+
+.Image {
+    height: 300px;
+    width: 320px;
+    object-fit: cover;
+}
+
+.ABC {
+    position: absolute;
+    top: 35%;
+    width: auto;
+    height: auto;
+    /* left: 10%; */
+    /* background-color: blue; */
+    gap: 10px;
+}
+
+.MainContainer {
+    /* position: absolute; */
+    /* top: 2px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    text-align: center;
+    /* background-color: red; */
+}
+
+
+.ImageTextConatiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.InnerTextConatiner {
+    width: 40%;
+    margin-left: 80px;
+}
+
+.Name {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+    /* color: #312951; */
+}
+
+.Description {
+    font-size: 18px;
+    text-align: left;
+}
+
+@media screen and (max-width:800px) {
+    .Image {
+        height: 250px;
+        width: 270px;
+        object-fit: cover;
+    }
+
+    .Container {
+        /* background-color: red; */
+        /* border: 1px solid black; */
+        height: 700px;
+    }
+
+    .heading {
+        font-size: 26px;
+        position: absolute;
+        left: 32%;
+        top: 6%;
+
+    }
+
+    .heading2 {
+        position: absolute;
+        font-size: 24px;
+        left: 32%;
+        top: 11%;
+
+    }
+
+    .Name {
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 8px;
+        /* color: #312951; */
+    }
+
+    /* color: #312951; */
+}
+
+.Description {
+    font-size: 16px;
+}
+
+.ImageTextConatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: none;
+}
+
+.InnerTextConatiner {
+    width: 52%;
+}
+
+.ABC {
+    position: absolute;
+    top: 22%;
+    width: auto;
+    height: auto;
+    left: 10%;
+    /* background-color: blue; */
+    gap: 10px;
+}
+
+
+@media screen and (max-width:680px) {
+    .Container {
+        /* background-color: red; */
+        /* border: 1px solid black; */
+        height: 800px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .Container {
+        /* background-color: red; */
+        /* border: 1px solid black; */
+        height: 600px;
+        width: 95%;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .heading2 {
+        font-size: 22px;
+    }
+
+    .Name {
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 8px;
+        /* color: #312951; */
+    }
+
+    .Description {
+        font-size: 14px;
+    }
+
+    .Image {
+        height: 200px;
+        width: 220px;
+    }
+
+    /* .heading2 {
+        position: absolute;
+        font-size: 22px;
+        left: 30%;
+        top: 12%;
+
+    } */
+}
+
+
+
+@media screen and (max-width:457px) {
+
+    .Container {
+        /* background-color: red; */
+        /* border: 1px solid black; */
+        height: 680px;
+    }
+
+    .heading2 {
+        position: absolute;
+        font-size: 20px;
+        left: 30%;
+        top: 14%;
+
+    }
+}
+
+@media screen and (max-width:380px) {
+    .Container {
+        height: 780px;
+    }
+}

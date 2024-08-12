@@ -1,0 +1,244 @@
+.ContainerLargeScreenSize {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    margin-bottom: 80px;
+    background-size: cover;
+    /* position: relative; */
+    max-height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* border: 1px solid black; */
+
+}
+
+.InnerMaineContainer {
+    /* max-width: 800px; */
+    /* background-color: red; */
+    /* margin: auto; */
+    /* width: 95%; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 150px;
+    margin-left: 20%;
+    /* gap: 500px; */
+    justify-content: center;
+    align-items: center;
+    /* transform: translateY(200px); */
+}
+
+.TextContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+
+}
+
+.ImageTeacher {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.paraText {
+    margin-top: 22px;
+}
+
+.HireYouContainer {
+    margin-bottom: 80px;
+    height: 700px;
+    border: 1px solid black;
+    margin: auto;
+    width: 76%;
+}
+
+
+
+
+
+
+
+.WhytojoinContainer {
+    margin: auto;
+    width: 76%;
+    margin-top: 80px;
+}
+
+
+.TopContainer {
+    width: 100%;
+}
+
+.TopText {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    color: #312951;
+}
+
+.TopImage {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.MainCardConatiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    /* border: 1px solid black; */
+    /* margin-top: 50px; */
+    margin-bottom: 80px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.card {
+    height: auto;
+    max-width: 350px;
+    border-radius: 15px 30px;
+    /* border-bottom-right-radius: 30px; */
+    /* border: 1px solid lightgray; */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    /* padding: 20px; */
+}
+
+.imageUnderWhy {
+    /* height: 200px;
+    width: 100%;
+    object-fit: cover; */
+    font-size: 150px;
+    color: #ffc847;
+    text-align: center;
+}
+
+.NameText {
+    /* margin-top: 8px; */
+    margin-bottom: 15px;
+    padding: 0px 15px;
+    text-align: center;
+}
+
+.ParaText {
+    padding: 0px 15px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: rgb(87, 86, 86);
+}
+
+.mainformHeading {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.teacherFormContainer {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border: 1px solid lightgray;
+    max-width: 1100px;
+    margin: auto;
+    width: 95%;
+    /* gap: 60px; */
+    margin-bottom: 80px;
+    background-color: #ffc8474a;
+}
+
+.teacherFormMainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* background-color: red; */
+    width: 70%;
+    padding: 20px;
+}
+
+.label {
+    margin-bottom: 12px;
+}
+
+.InputBox {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.textarea {
+    width: 100%;
+    padding: 20px 15px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    /* border: none; */
+}
+
+.SubmitBox {
+    width: 30%;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    background-color: #ffc847;
+    border-radius: 12px;
+}
+
+
+
+
+@media screen and (max-width : 1211px) {
+    .ContainerLargeScreenSize {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .InnerMaineContainer {
+        margin: 40px;
+    }
+
+    .ImageTeacher {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .image {
+        display: none;
+    }
+
+    .teacherFormMainContainer {
+        width: 100%;
+    }
+
+    .mainformHeading {
+        font-size: 1.7rem;
+        padding: 0px 10px;
+    }
+
+    .card {
+        height: auto;
+        max-width: 500px;
+        margin: 0px 10px;
+    }
+
+    .TopText {
+        font-size: 1.7rem;
+    }
+
+    .WhytojoinContainer {
+        margin: auto;
+        width: 90%;
+        margin-top: 80px;
+    }
+
+
+}
+
+@media screen and (max-width : 450px) {
+    .WhytojoinContainer {
+        margin: auto;
+        width: 90%;
+        margin-top: 80px;
+    }
+}

@@ -1,0 +1,650 @@
+.container>* {
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 50px);
+    /* height: auto; */
+    /* margin: auto;
+    width: 76%; */
+    /* background: linear-gradient(to left, #f7aae63f, #fdee8e8f); */
+    background-color: rgba(235, 234, 234, 0.377);
+    /* margin-top: 60px; */
+}
+
+/* .container>div {
+    width: 50%;
+    height: 100%;
+} */
+
+.ImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* padding-right: 60px; */
+    height: 500px;
+    width: 600px;
+    /* background-color: red; */
+}
+
+.TopImage {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.TextInputcontainer {
+    /* padding: 40px 40px; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    /* padding: 0px 60px; */
+    padding-right: 60px;
+    width: 1300px;
+    flex-direction: column;
+}
+
+.tagLine {
+    display: flex;
+    font-Size: 45px;
+    color: #312951;
+    font-weight: 700;
+}
+
+.DescriptionTxt {
+    font-size: 18px;
+    /* font-family: poppins, sans-serif; */
+    font-weight: 400;
+    margin-top: 8px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.bottomtagline {
+    font-size: 20px;
+    /* font-family: poppins, sans-serif; */
+    font-weight: 400;
+    margin-top: 4px;
+    color: gray
+}
+
+.textInput {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.ApplyNowButton {
+    font-size: 20px;
+    /* font-family: poppins; */
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+}
+
+.verficationText {
+    font-size: 12px;
+    margin-top: 6px;
+    color: #536e83;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    width: 200px;
+    /* margin:auto; */
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: #312951;
+    color: white;
+    cursor: pointer;
+    /* border */
+}
+
+
+
+
+
+
+
+
+
+
+.modelWrapper {
+    position: fixed;
+    width: 100vw;
+    z-index: 10000;
+    height: 100vh;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.ModelContainer {
+    position: relative;
+    max-width: 440px;
+    width: 95%;
+    background-color: rgb(227, 224, 224);
+    border-radius: 5px;
+    margin: auto;
+    padding: 2%;
+}
+
+.iconContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fc0067;
+    cursor: pointer;
+}
+
+.iconStyle {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.Image {
+    height: 60px;
+}
+
+.RegisterText {
+    text-align: center;
+    padding-top: 18px;
+    color: #312951;
+    font-size: 1.4rem;
+}
+
+.inputBoxContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.inputbox {
+    padding: 13px 0px 13px 10px;
+    width: 92%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 8px 0px;
+    margin: 0px 60px 0px 60px;
+    border-radius: 10px;
+    background-color: #fc0067;
+    cursor: pointer;
+}
+
+.buttonContainerText {
+    width: 200px;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.paragraphText {
+    text-align: center;
+    font-size: 12px;
+}
+
+.topMainConatiner {
+    height: 100vh;
+    /* background-color: lightgray; */
+    /* overflow: hidden; */
+    background-size: cover;
+}
+
+.TunTun {
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.TheMain {
+    width: 83%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    /* align-items: center; */
+    margin-top: 100px;
+    height: auto;
+    gap: 30px;
+    padding-left: 70px;
+    overflow: hidden;
+}
+
+.TheLeftConatiner {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: auto;
+}
+
+.CareerTopTextContainer {
+    border-radius: 10px;
+    background-color: rgb(250, 201, 111);
+    /* padding: 5px 10px; */
+    padding: 7px 3px;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.SmallLeftTopText {
+    margin-top: 40px;
+    font-size: 18px;
+    width: 75%;
+}
+
+.GetJobTopText {
+    font-size: 40px;
+    width: 80%;
+}
+
+.CareerTopText {
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.DisplayFlexIconAll {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.iconTextMainDiv {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.LeftIconTextConatiner {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.iconDiv {
+    /* padding: 0px 13px; */
+    background-color: white;
+    border: 1px solid black;
+    /* width: 60%; */
+    width: 50px;
+    height: 50px;
+    /* padding: 20px; */
+
+    border-radius: 150px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.OurTopDiv {
+    border-radius: 20px;
+    background-color: #fc00699a;
+    text-align: center;
+    padding: 8px;
+}
+
+.Image {
+    height: 100px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.RightFlexConatiner {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TopOneRight {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.BottomOneRight {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.PinkBoxHeading {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.PinkBoxPara {
+    font-size: 16px;
+}
+
+.BoxRightPinkContainer {
+    background-color: #fc00699a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* width: 30%; */
+    border-radius: 10px;
+    color: white;
+    /* flex-wrap: wrap; */
+    /* width: 30%; */
+}
+
+.InnerContainer1111 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 10px;
+    background-color: lightcyan;
+    margin-bottom: 50px;
+
+}
+
+.CarouselImage {
+    display: none;
+}
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .container {
+        /* width: 100%; */
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container>div {
+        flex-direction: column;
+    }
+
+    .ImageContainer {
+        margin: auto;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .TextInputcontainer {
+        width: auto;
+        margin-top: 30px;
+        padding-left: 30px;
+    }
+
+    .DescriptionTxt {
+        font-size: 0.9rem;
+        margin-bottom: 0px;
+    }
+
+    .tagLine {
+        font-Size: 1.5rem;
+    }
+
+    .bottomtagline {
+        font-size: 0.7rem;
+    }
+
+    .buttonDiv {
+        padding: 8px 12px;
+        width: 170px;
+        border-radius: 10px;
+        margin-top: 35px;
+    }
+
+    .ApplyNowButton {
+        font-size: 1rem;
+        /* font-family: poppins; */
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .TextContainer {
+        display: flex;
+        align-items: center;
+        color: #fff;
+    }
+
+    .UpperText {
+        font-size: 40px;
+    }
+
+    .paraText {
+        font-size: 18px;
+    }
+
+    .TheMain {
+        width: 100%;
+        /* margin: auto; */
+        /* border: 1px solid black; */
+        margin-top: 20px;
+        flex-wrap: wrap;
+        height: 100%;
+        padding-left: 0px;
+    }
+
+    .iconTextMainDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CareerTopTextContainer {
+        display: none;
+    }
+
+    .GetJobTopText {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .TheLeftConatiner {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .LeftIconTextConatiner {
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        padding-left: 8px;
+    }
+
+    .HaveText {
+        text-align: center !important;
+    }
+
+    .topMainConatiner {
+        height: auto;
+    }
+
+    .OurTopDiv {
+        display: none;
+    }
+
+    .CarouselImage {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        max-width: 1000px;
+        margin: 0px 20px;
+        margin-top: -50px;
+        /* background-color: red; */
+    }
+
+    .BoxRightPinkContainer {
+        display: none;
+    }
+
+    .ContainerImage {
+        height: 100px;
+        width: 100px;
+    }
+
+    .InnerContainer1111 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        padding: 10px;
+        background-color: lightcyan;
+        margin-bottom: 50px;
+
+    }
+
+    .AllCourseConatinerTopMainText {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .AllCourseConatinerTopTextPara {
+        text-align: center;
+    }
+
+    .AllCourseConatinerTheMain {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ContainerImageNiche {
+        height: 300px;
+        width: 80%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .TheleftOne {
+        padding: 0px 20px;
+        padding-bottom: 40px;
+
+    }
+
+    .CourseDaName {
+        font-size: 20px;
+    }
+
+    .DataConatiner {
+        border: 1px solid black;
+        padding: 7px;
+        border-radius: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .ViewCourseDiv {
+        padding: 10px;
+        width: 30%;
+        margin-top: 40px;
+        font-size: 18px;
+    }
+
+    .SmallLeftTopText {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:521px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        /* margin-top: 60px; */
+        /* background: linear-gradient(to left, #f7aae63f, #fdd88e8f); */
+    }
+
+    .container>div {
+        width: 100%;
+        height: 100%;
+        /* flex-direction: column; */
+    }
+
+    .TopImage {
+        /* height: 50%; */
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .TextInputcontainer {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 0px 20px;
+        flex-direction: column;
+    }
+
+    .DescriptionTxt {
+        font-size: 14px;
+    }
+
+    .tagLine {
+        font-Size: 26px;
+    }
+
+    .bottomtagline {
+        display: none;
+    }
+
+    .buttonDiv {
+        padding: 6px 10px;
+        width: 130px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .ApplyNowButton {
+        font-size: 14px;
+        /* font-family: poppins; */
+        font-weight: 400;
+    }
+}

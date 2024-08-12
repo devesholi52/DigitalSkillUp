@@ -1,0 +1,140 @@
+.ContainerLargeScreenSize {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    /* position: relative; */
+    max-height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+.TextContainer {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 1400px; */
+    /* padding-top: 70px; */
+    /* text-align: left; */
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 90vh; */
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.UpperText {
+    font-size: 56px;
+    font-weight: bolder;
+    cursor: default
+}
+
+.paraText {
+    font-size: 25px;
+    margin: 15px 0;
+    max-width: 600px;
+    cursor: default;
+    /* text-align: left; */
+    /* background-color: #fc0067; */
+}
+
+.InnerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin: 50px 0px; */
+    padding: 20px 0px;
+    width: 80%;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.Container {
+    display: flex;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 350px;
+    height: 350px;
+    background-position: center;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin: 0px 20px;
+    margin-top: 40px;
+    transition: 0.3s;
+    position: relative;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+
+.Container:hover {
+    transform: translateY(-15px);
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+.TextHeading {
+    margin-left: 13%;
+    margin-top: 50px;
+    color: #312951;
+    font-size: 32px;
+}
+
+@media screen and (max-width:1200px) {
+    .Container {
+        max-width: 300px;
+        height: 300px;
+        margin: 0px 10px;
+
+    }
+
+    .InnerContainer {
+        /* margin: 30px 0px; */
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:836px) {
+
+    .UpperText {
+        font-size: 40px;
+    }
+
+    .paraText {
+        font-size: 18px;
+    }
+
+    .InnerContainer {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Container {
+        max-width: 300px;
+        height: 270px;
+        margin: 0px 10px;
+        margin-top: 20px;
+    }
+
+    .UpperText {
+        font-size: 1.3rem;
+        text-align: center;
+
+    }
+
+    .InnerContainer {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .TextHeading {
+        font-size: 22px;
+    }
+}

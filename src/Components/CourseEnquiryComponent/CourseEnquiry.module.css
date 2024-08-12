@@ -1,0 +1,102 @@
+.Container {
+    margin: auto;
+    width: 95%;
+    /* background-color: red; */
+    margin-top: 50px;
+}
+
+.CourseEnquiryText {
+    text-align: center;
+    font-size: 34px;
+    color: #312951;
+    margin-bottom: 30px;
+}
+
+
+.TopContainer {
+    width: 100%;
+}
+
+.TopImage {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.MainCardConatiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+    /* border: 1px solid black; */
+    /* margin-top: 50px; */
+    margin-bottom: 80px;
+    padding-bottom: 50px;
+}
+
+.card {
+    height: auto;
+    max-width: 380px;
+    /* border: 1px solid lightgray; */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    /* padding: 20px; */
+}
+
+.image {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.NameText {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    padding: 0px 15px;
+    text-align: center;
+}
+
+.ParaText {
+    padding: 0px 15px;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(87, 86, 86);
+}
+
+@media screen and (max-width:800px) {
+    .CourseEnquiryText {
+        text-align: center;
+        font-size: 1.7rem;
+        color: #312951;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .CourseEnquiryText {
+        text-align: center;
+        /* font-size: 30px; */
+        color: #312951;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .CourseEnquiryText {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #312951;
+        margin-bottom: 15px;
+    }
+
+    .MainCardConatiner {
+        margin: 0px 20px;
+    }
+
+    .image {
+        height: 220px;
+        width: 100%;
+        object-fit: cover;
+    }
+}

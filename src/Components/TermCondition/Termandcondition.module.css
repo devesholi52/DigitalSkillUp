@@ -1,0 +1,41 @@
+.container {
+    margin: 0px 40px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.HeadingText {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #312951;
+    /* font-family: poppins sans-serif; */
+}
+
+.paratext {
+    font-size: 16px;
+}
+
+@media screen and (max-width:700px) {
+    .HeadingText {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .paratext {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .HeadingText {
+        margin-bottom: 15px 0px;
+        font-size: 25px;
+    }
+
+    .paratext {
+        font-size: 14px;
+    }
+}

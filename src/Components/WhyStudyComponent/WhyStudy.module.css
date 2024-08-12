@@ -1,0 +1,191 @@
+.AllCourseConatinerTopText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+
+.AllCourseConatinerTopMainText {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.AllCourseConatinerTopTextPara {
+    font-size: 18px;
+}
+
+.TheLeftTextCOnatiner {
+    gap: 40px;
+    margin-bottom: 0px;
+}
+
+.Main {
+    width: 100%;
+    margin: auto;
+    gap: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #FED5E3; */
+    padding-top: 50px;
+    background-size: cover;
+}
+
+.ImageConatiner {
+    height: 550px;
+    width: 600px;
+    overflow: hidden;
+}
+
+.Image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ParaRghtText {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.TheHighText {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.MostDemandedConatiner {
+    margin-top: 30px;
+    width: 400px;
+}
+
+.Iconji {
+    font-size: 40px;
+}
+
+@media screen and (max-width:780px) {
+    .AllCourseConatinerTopMainText {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .Iconji {
+        font-size: 25px;
+    }
+
+    .AllCourseConatinerTopTextPara {
+        text-align: center;
+        width: 80%;
+    }
+
+    .TheLeftTextCOnatiner {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .TheHighpARA {
+        width: 80%;
+    }
+
+
+    .TheLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Main {
+        display: flex;
+        padding: 60px 0px;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .TheHighText {
+        font-size: 20px;
+    }
+
+    .ImageConatiner {
+        height: 350px;
+        width: 400px;
+        overflow: hidden;
+        margin: auto;
+        margin-bottom: 0px;
+    }
+
+    .ParaRghtText {
+        text-align: center;
+    }
+
+    .MostDemandedConatiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    .AllCourseConatinerTopMainText {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .AllCourseConatinerTopTextPara {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .TheHighpARA {
+        width: 80%;
+    }
+
+
+    .TheLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Main {
+        display: flex;
+        padding: 60px 0px;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .TheHighText {
+        font-size: 18px;
+    }
+
+    .crouselPara {
+        width: 80%;
+        margin: auto;
+    }
+
+    .ImageConatiner {
+        height: 300px;
+        width: 350px;
+    }
+
+    .ParaRghtText {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MostDemandedConatiner {
+        margin: auto;
+        width: 80%;
+        padding: 0px 10px;
+    }
+
+}
